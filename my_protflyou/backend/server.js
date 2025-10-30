@@ -44,14 +44,16 @@ const projectSchema = new mongoose.Schema({
 
 const Project = mongoose.model('Project', projectSchema);
 
-// Email configuration (SendGrid instead of Gmail)
-const sgMail = require('nodemailer-sendgrid-transport');
-const transporter = nodemailer.createTransport(sgMail({
+// Email configuration
+const transporter = nodemailer.createTransport({
+  service: 'gmail',
   auth: {
-    api_key: process.env.SENDGRID_API_KEY,
+    user: process.env.EMAIL_USER,
+    pass: process.env.EMAIL_PASS  // You need to use App Password for Gmail
   }
-}));
-console.log("Using SendGrid for mail... API key present:", !!process.env.SENDGRID_API_KEY);
+});
+console.log("EMAIL_USER:", process.env.EMAIL_USER);
+console.log("EMAIL_PASS:", process.env.EMAIL_PASS ? "Loaded ✅" : "Missing ❌");
 
 
 // Middleware to check if user is admin (for demonstration, using a simple check)
