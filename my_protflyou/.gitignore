@@ -1,0 +1,33 @@
+# Node.js
+node_modules/
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# Frontend React
+my-app/node_modules/
+my-app/.env
+my-app/build/
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Environment
+.env.*
+
+# OS generated
+.DS_Store
+Thumbs.db
