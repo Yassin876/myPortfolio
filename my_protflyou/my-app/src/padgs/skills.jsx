@@ -2,7 +2,7 @@ import React from 'react';
 import { 
     FaPython, FaJs, FaReact, FaDatabase, FaHtml5, FaCss3, 
     FaChartLine, FaChartBar, FaCode, FaCogs, FaFlask, 
-    FaCog, FaRocket, FaBrain 
+    FaCog, FaRocket, FaBrain,FaBolt 
 } from 'react-icons/fa';
 import { SiFastapi } from 'react-icons/si';
 
@@ -72,7 +72,7 @@ function Skills() {
                     <h2>Seaborn</h2>
                 </div>
                 <div className='skill-item'>
-                    <SiFastapi className='skill-icon' />   
+                    <FaBolt className='skill-icon' />   
                     <h2>FastAPI</h2>
                 </div>
             </div>
