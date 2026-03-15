@@ -65,6 +65,10 @@ function Skills() {
                     <FaChartPie className='skill-icon' />
                     <h2>Seaborn</h2>
                 </div>
+                <div className='skill-item'>
+                    <FaChartPie className='skill-icon' />
+                    <h2>FastAPI</h2>
+                </div>
 
 
             </div>
