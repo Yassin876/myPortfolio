@@ -1,5 +1,11 @@
 import React from 'react';
-import { FaPython, FaJs, FaReact, FaDatabase, FaHtml5, FaCss3, FaChartLine, FaChartBar, FaChartPie, FaChartArea, FaCode, FaCogs, FaFlask, FaCog, FaRocket, FaBrain, SiFastapi } from 'react-icons/fa';
+import { 
+    FaPython, FaJs, FaReact, FaDatabase, FaHtml5, FaCss3, 
+    FaChartLine, FaChartBar, FaCode, FaCogs, FaFlask, 
+    FaCog, FaRocket, FaBrain 
+} from 'react-icons/fa';
+import { SiFastapi } from 'react-icons/si';
+
 function Skills() {
     return (
         <div className='skills'>
@@ -62,16 +68,16 @@ function Skills() {
                     <h2>Matplotlib</h2>
                 </div>
                 <div className='skill-item'>
-                    <FaChartPie className='skill-icon' />
+                    <FaChartBar className='skill-icon' />  
                     <h2>Seaborn</h2>
                 </div>
                 <div className='skill-item'>
-                    <SiFastapi className='skill-icon' />
-                    <h2>Seaborn</h2>
+                    <SiFastapi className='skill-icon' />   
+                    <h2>FastAPI</h2>
                 </div>
-
             </div>
         </div>
     )
 }
+
 export default Skills;
