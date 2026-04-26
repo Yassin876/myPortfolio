@@ -592,7 +592,7 @@ body {
 }
 
 .social-link.gmail:hover {
-  border-color: #ea4335;
+  border-color: #EA4335;
   background: linear-gradient(135deg, #ea4335, #c23321);
 }
 
@@ -612,7 +612,7 @@ body {
 }
 
 .social-link.cv:hover {
-    border-color: #e53e3e;
+    border-color: #B30B00;
     background: linear-gradient(135deg, #e53e3e, #c53030);
     color: #ffffff;
 }
