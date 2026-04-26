@@ -617,6 +617,9 @@ body {
     color: #ffffff;
 }
 
+.social-link.cv:hover .social-icon {
+    color: #ffffff;
+}
 
 /* Contact Form Section */
 .contact-form-section {
