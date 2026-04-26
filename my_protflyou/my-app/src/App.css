@@ -607,12 +607,14 @@ body {
   font-weight: 600;
 }
 
-.social-link.cv {
-    color: #e53e3e; /* أحمر زي أيقونة الـ PDF */
+.social-link.cv .social-icon {
+    color: #e53e3e;
 }
 
 .social-link.cv:hover {
-    background: #fff5f5;
+    border-color: #e53e3e;
+    background: linear-gradient(135deg, #e53e3e, #c53030);
+    color: #ffffff;
 }
 
 
