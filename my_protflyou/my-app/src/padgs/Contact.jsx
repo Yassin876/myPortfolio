@@ -57,30 +57,14 @@ const Contact = () => {
                             <FaEnvelope className="social-icon" />
                             <span>Gmail</span>
                         </a>
+                        <a href={CV_LINK} target="_blank" rel="noopener noreferrer" className="social-link cv">
+                            <FaFilePdf className="social-icon" />
+                            <span>CV</span>
+                        </a>
                     </div>
                 </div>
 
-                {/* ✅ CV Section */}
-                <div className="cv-section">
-                    <h2>My CV</h2>
-                    <div className="cv-card">
-                        <div className="cv-card-info">
-                            <FaFilePdf className="cv-icon" />
-                            <div>
-                                <p className="cv-title">Resume / CV</p>
-                                <p className="cv-subtitle">View or download my resume</p>
-                            </div>
-                        </div>
-                        <div className="cv-buttons">
-                            <a href={CV_LINK} target="_blank" rel="noopener noreferrer" className="cv-btn view-btn">
-                                View
-                            </a>
-                            <a href={CV_DOWNLOAD} target="_blank" rel="noopener noreferrer" className="cv-btn download-btn">
-                                Download
-                            </a>
-                        </div>
-                    </div>
-                </div>
+
 
                 {/* Contact Form Section */}
                 <div className="contact-form-section">
