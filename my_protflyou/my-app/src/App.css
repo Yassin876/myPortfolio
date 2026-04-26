@@ -607,6 +607,15 @@ body {
   font-weight: 600;
 }
 
+.social-link.cv {
+    color: #e53e3e; /* أحمر زي أيقونة الـ PDF */
+}
+
+.social-link.cv:hover {
+    background: #fff5f5;
+}
+
+
 /* Contact Form Section */
 .contact-form-section {
   background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
