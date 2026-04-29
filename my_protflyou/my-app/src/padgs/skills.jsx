@@ -2,9 +2,9 @@ import React from 'react';
 import { 
     FaPython, FaJs, FaReact, FaDatabase, FaHtml5, FaCss3, 
     FaChartLine, FaChartBar, FaCode, FaCogs, FaFlask, 
-    FaCog, FaRocket, FaBrain,FaBolt 
+    FaCog, FaRocket, FaBrain, FaBolt 
 } from 'react-icons/fa';
-import { SiFastapi } from 'react-icons/si';
+import { SiFastapi, SiHuggingface } from 'react-icons/si';
 
 function Skills() {
     return (
@@ -68,16 +68,20 @@ function Skills() {
                     <h2>Matplotlib</h2>
                 </div>
                 <div className='skill-item'>
-                    <FaChartBar className='skill-icon' />  
+                    <FaChartBar className='skill-icon' />
                     <h2>Seaborn</h2>
                 </div>
                 <div className='skill-item'>
-                    <FaBolt className='skill-icon' />   
+                    <FaBolt className='skill-icon' />
                     <h2>FastAPI</h2>
+                </div>
+                <div className='skill-item'>
+                    <SiHuggingface className='skill-icon' />
+                    <h2>Hugging Face</h2>
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Skills;
