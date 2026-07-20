@@ -72,7 +72,7 @@ function Skills() {
                     <h2>Seaborn</h2>
                 </div>
                 <div className='skill-item'>
-                    <FaBolt className='skill-icon' />
+                    <SiFastapi className='skill-icon' />
                     <h2>FastAPI</h2>
                 </div>
                 <div className='skill-item'>
